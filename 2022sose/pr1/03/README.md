@@ -1,4 +1,4 @@
-# Termin 3
+# Woche 3
 
 ## Aufgaben
 
@@ -325,8 +325,8 @@ if (x == 2 || x == 3 || x == 5 || x == 7)
 
 Anfängern empfehle ich das Buch "Grundkurs C" von Jürgen Wolf und René Krooß.
 Das Buch behandelt den aktuellen Sprachstandard C18.
-Skorbut unterstützt allerdings nur C89 bzw. C90, und das auch nicht vollständig.
-Für das Selbststudium zu Termin 3 empfehle ich folgende Kapitel:
+Skorbut unterstützt allerdings nur ANSI C89 bzw. ISO C90, und das auch nicht vollständig.
+Für das Selbststudium zu Woche 3 empfehle ich folgende Kapitel:
 
 - Kapitel 4: Rechnen mit C und Operatoren
   - Seite 95: Skorbut kennt nur `+=` und `-=`
@@ -337,5 +337,5 @@ Für das Selbststudium zu Termin 3 empfehle ich folgende Kapitel:
   - Kapitel 5.5: Mehrfache Verzweigung mit `switch` behandeln wir erst später
 - Kapitel 7: Funktionen erstellen
   - Kapitel 7.7: `inline`-Funktionen sind C99
-  - Kapitel 7.8: Rekursion wird ein eigener Termin werden, das Thema ist viel zu komplex für 2 Seiten
+  - Kapitel 7.8: Rekursion behandeln wir erst später
   - Kapitel 7.10: Skorbut kennt kein `exit`

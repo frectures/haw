@@ -1,4 +1,4 @@
-# Termin 2
+# Woche 2
 
 ## Aufgaben
 
