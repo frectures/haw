@@ -4,9 +4,9 @@
 
 ### Aufgabe 3.0 (Pflicht)
 
-Installiere Skorbut ab Schritt 6 gemäß https://github.com/fredoverflow/skorbut-release#getting-started
+Installiere Skorbut **ab Schritt 6** gemäß https://github.com/fredoverflow/skorbut-release#getting-started
 
-(Java wurde ja bereits für Karel The Robot installiert, deshalb kannst du die ersten 5 Schritte überspringen.)
+(Java wurde ja bereits für Karel The Robot installiert, deshalb kannst du **die ersten 5 Schritte überspringen**.)
 
 ### Aufgabe 3.1 Summen (Pflicht)
 
@@ -33,16 +33,20 @@ durch wiederholte Mittelwertbildung aus dem Schätzwert und dem Quotient aus Rad
 Hier ein Beispiel zum Berechnen der Quadratwurzel von `100.0`:
 
 - Wir fangen mit `1.0` als beliebigem Schätzwert an
-- `mittelwert( 1.0 , 100/ 1.0 ) = 50.5`
-- `mittelwert(50.5 , 100/50.5 ) = 26.24`
-- `mittelwert(26.24, 100/26.24) = 15.03`
-- `mittelwert(15.03, 100/15.03) = 10.84`
-- `mittelwert(10.84, 100/10.84) = 10.03`
-- Nach 5 Rechnungen ist uns der erreichte Schätzwert `10.03` gut genug
+- `mittelwert( 1.0 , 100.0/ 1.0 ) = 50.5`
+- `mittelwert(50.5 , 100.0/50.5 ) = 26.24`
+- `mittelwert(26.24, 100.0/26.24) = 15.03`
+- `mittelwert(15.03, 100.0/15.03) = 10.84`
+- `mittelwert(10.84, 100.0/10.84) = 10.03`
+- Nach **5 Rechnungen** ist uns der erreichte Schätzwert gut genug
 
-Wende das Verfahren handschriftlich für mindestens zwei weitere Zahlen an.
+Wende das Verfahren handschriftlich für mindestens zwei weitere Zahlen an:
+- Das erste Mal stellt sicher, dass du das Verfahren überhaupt verstanden hast
+- Das zweite Mal erklärst du das Verfahren einem anderen Menschen oder einem [Quietscheentchen](https://de.wikipedia.org/wiki/Quietscheentchen-Debugging)
+  - Hierbei offenbaren sich häufig unbewusste Verständnislücken
+- Man kann nur Verfahren programmieren, die man so gut verstanden hat, dass man sie (dem Computer) erklären kann
 
-Schreibe eine Funktion `aufgabe_3_2`, die sich wie folgt verhalten soll:
+Schreibe eine Funktion `void aufgabe_3_2()`, die sich wie folgt verhalten soll:
 ```
 Herzlich willkommen zum Berechnen von Quadratwurzeln!
 
@@ -52,9 +56,13 @@ Radikand? 100
 ```
 (Die `100` ist eine Eingabe des Benutzers.)
 
+- Schleifen haben wir in C bisher nicht behandelt und brauchen wir auch nicht unbedingt
+- Einfach **5 Zeilen Code** schreiben, pro Rechnung 1 Zeile Code
+- Falls du unbedingt schon eine Schleife verwenden möchtest, darfst du das natürlich
+
 ### Aufgabe 3.3 Rechtwinklige Dreiecke (Pflicht)
 
-Schreibe eine Funktion `aufgabe_3_3`, die sich wie folgt verhalten soll:
+Schreibe eine Funktion `void aufgabe_3_3()`, die sich wie folgt verhalten soll:
 ```
 Herzlich willkommen zum Berechnen rechtwinkliger Dreiecke!
 
@@ -69,9 +77,9 @@ Die Länge der Hypotenuse kannst du mit dem Satz des Pythagoras bestimmen.
 
 Das Heron-Verfahren hast du jetzt wahrscheinlich zweimal implementiert;
 das erste Mal in `aufgabe_3_2` und das zweite Mal in `aufgabe_3_3`.
-Eliminiere diese Code-Duplizierung durch eine eigene Funktion `double root(double x)`.
-Diese Funktion soll die Quadratwurzel von `x` mittels Heron-Verfahren berechnen und an den Aufrufer zurückliefern.
-Nun können `aufgabe_3_2` und `aufgabe_3_3` diese Funktion `root` aufrufen, anstatt die Quadratwurzel selber zu berechnen.
+- Eliminiere diese Code-Duplizierung durch eine eigene Funktion `double wurzel(double x)`
+- Diese Funktion soll die Quadratwurzel von `x` mittels Heron-Verfahren berechnen und an den Aufrufer zurückliefern
+- Nun können `aufgabe_3_2` und `aufgabe_3_3` diese Funktion `wurzel` aufrufen, anstatt die Quadratwurzel selber zu berechnen
 
 ### Aufgabe 3.4 Quadratische Gleichungen (Kür)
 
@@ -93,11 +101,11 @@ x2: 0.750000
 (`4.0` und `5.0` und `-6.0` sind Eingaben des Benutzers.)
 
 **Achtung:** Nicht jede Gleichung der Form ax²+bx+c = 0 hat genau 2 Lösungen!
-Welche Sonderfälle kannst du identifizieren?
-Das Programm sollte sinnvoll darauf reagieren!
+- Welche Sonderfälle kannst du identifizieren?
+- Das Programm sollte sinnvoll darauf reagieren!
 
 Wenn du den kompletten Code in `aufgabe_3_4` packst, wird die Funktion sehr unübersichtlich.
-Es empfiehlt sich, die Sonderfälle in eigene Funktionen auszulagern.
+- Lagere die Sonderfälle in eigene Funktionen aus
 
 ## FAQ
 
