@@ -406,7 +406,7 @@ die zusätzliche Typinformation (`double`) geht dabei verloren
   - 0, falls beide Elemente im Sinne der Sortierreihenfolge als gleich angesehen werden
 - In der konkreten Vergleichsfunktion müssen die beiden `const void*`
 in Zeiger auf die tatsächlichen Elemente zurückkonvertiert werden,
-um die Elemente miteinander vergleichen zu können.
+um die Elemente miteinander vergleichen zu können
 
 ### Warum `const void*` und nicht einfach `void*`?
 
