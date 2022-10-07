@@ -31,14 +31,14 @@
 ### Gruppe I
 
 - Oktober 17: Abnahme der Wochen 1, 2, 3
-- November 14: Abnahme der Wochen 3, 4, 5
+- November 14: Abnahme der Wochen 4, 5, 6
 - Dezember 5: Abnahme der Wochen 7, 8, 9
 - Januar 9: Abnahme der Wochen 10, 11, 12
 
 ### Gruppe II
 
 - Oktober 24: Abnahme der Wochen 1, 2, 3
-- November 21: Abnahme der Wochen 3, 4, 5
+- November 21: Abnahme der Wochen 4, 5, 6
 - Dezember 12: Abnahme der Wochen 7, 8, 9
 - Januar 16: Abnahme der Wochen 10, 11, 12
 
