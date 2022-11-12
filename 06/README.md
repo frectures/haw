@@ -2,6 +2,8 @@
 
 📺 Strings in 14 Minuten erklärt: https://www.youtube.com/watch?v=u3VnaChy2sY
 
+📺 Rufe NIEMALS `strlen` in Schleifenbedingungen auf! https://www.youtube.com/watch?v=aFdL61uoxmY
+
 ## Aufgaben
 
 ### Aufgabe 6.1 Vokale (abnahmepflichtig & klausurrelevant)
