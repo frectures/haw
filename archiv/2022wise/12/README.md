@@ -1,44 +1,5 @@
 # Woche 12
 
-## Klausurhinweise
-
-### Wie wird die Klausur konkret ablaufen?
-
-Ihr sitzt an einem Labor-Rechner (ohne Internet-Zugang) und programmiert C in Skorbut.
-
-### Wie kann man sich die Aufgaben vorstellen?
-
-Ganz ähnlich wie in den letzten 10 Wochen: pro Aufgabe eine leere Funktion,
-die ihr implementieren sollt, mit zugehörigem Test sowie kurzer Beschreibung
-(mittlerweile auf Deutsch und Englisch).
-
-Alte Beispiel-Aufgaben findet ihr hier:
-- [2022](https://github.com/frectures/haw/blob/master/Klausur2022.c)
-- [2015](https://github.com/frectures/haw/blob/master/Klausur2015.md)
-
-### Sollen die Funktionen mit dem Benutzer interagieren?
-
-Nein, auf gar keinen Fall!
-Wenn ihr `printf` oder `scanf` verwendet, seid ihr auf dem Holzweg!
-
-Alle benötigten Informationen kommen über Funktions-Parameter hinein,
-und das Ergebnis wird entweder per `return`-Anweisung zurückgeliefert 
-oder mittels Zeiger-Parameter in Variablen des Aufrufers geschrieben.
-
-### Welche Wochen sind die klausurrelevantesten?
-
-Woche 6 und Woche 10; Strings solltet ihr im Schlaf untersuchen und verändern können!
-
-### Wird während der Klausur das Skript zur Verfügung gestellt?
-
-Ja, eine große PDF-Datei mit allen FAQs der Wochen 3 bis 12 wird auf dem Desktop liegen.
-
-### Dürfen wir eigene Notizen zur Klausur mitbringen?
-
-Ihr dürft 1 DIN-A4-Blatt (beidseitig) **!!! handschriftlich !!!** beschrieben mitbringen.
-
-(Erfahrungsgemäß bringt das aufgrund der vollständig zur Verfügung gestellten FAQs aber wenig.)
-
 ## Aufgaben
 
 ### Aufgabe 12.1 (abnahmepflichtig & klausurrelevant)

@@ -191,4 +191,3 @@ void hexToBinary_test()
     hexToBinary("20645e8abf1d379c", bin);
     assert(strcmp(bin, "0010 0000 0110 0100 0101 1110 1000 1010 1011 1111 0001 1101 0011 0111 1001 1100") == 0);
 }
-
