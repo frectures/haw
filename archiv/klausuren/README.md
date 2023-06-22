@@ -57,9 +57,9 @@ Alle benötigten Informationen kommen über Funktions-Parameter hinein,
 und das Ergebnis wird entweder per `return`-Anweisung zurückgeliefert 
 oder mittels Zeiger-Parameter in Variablen des Aufrufers geschrieben.
 
-### Welche Wochen sind die klausurrelevantesten?
+### Welche Aufgaben sind die klausurrelevantesten?
 
-Woche 6 und Woche 10; Strings solltet ihr im Schlaf untersuchen und verändern können!
+Alle Aufgaben, in denen Strings untersucht oder verändert werden, zum Beispiel 6.1 oder 11.1
 
 ### Wird während der Klausur das Skript zur Verfügung gestellt?
 
@@ -67,6 +67,6 @@ Ja, eine große PDF-Datei mit allen FAQs der Wochen 3 bis 12 wird auf dem Deskto
 
 ### Dürfen wir eigene Notizen zur Klausur mitbringen?
 
-Ihr dürft 1 DIN-A4-Blatt (beidseitig) **!!! HANDSCHRIFTLICH !!!** beschrieben mitbringen.
+Ihr dürft 1 DIN-A4-Blatt 📝 beidseitig ✍️ **HANDSCHRIFTLICH** ✍️ beschrieben mitbringen.
 
 (Erfahrungsgemäß bringt das aufgrund der vollständig zur Verfügung gestellten FAQs aber wenig.)
