@@ -1,42 +1,40 @@
-# PR1 Sommersemester 2023
+# PR1 Wintersemester 2023
 
 ## Termine
 
-| KW | Montag  | Dienstag | Mittwoch | Donnerstag | Freitag |
-| -- | ------  | -------- | -------- | ---------- | ------- |
-| 12 |         | 21.03.   |          | 23.03.     | 1       |
-| 13 |         | 28.03.   |          | 30.03.     | 2       |
-| 14 | A 1-2   | 04.04.   |          | 06.04.     | Karfrei |
-| 15 | Ostermon| 11.04.   |          | 13.04.     | 3       |
-| 16 |         | 18.04.   |          | 20.04.     | 4       | 
-| 17 | C 1-3   | 25.04.   |          | 27.04.     | 5       | 
-| 18 | Arbeit  | 02.05.   | **A 3-5**| 04.05.     | 6       |
-| 19 |         | 09.05.   |          | 11.05.     | 7       | 
-| 20 | C 4-6   | 16.05.   |          | Himmelfahrt| 8       |
-| 21 | A 6-8   | 23.05.   |          | 25.05.     | 9       |
-| 22 | Pfingst | 30.05.   |          | 01.06.     |         | 
-| 23 | C 7-9   | 06.06.   |          | 08.06.     | 10      |
-| 24 | A 9-10  | 13.06.   |          | 15.06.     | 11      |
-| 25 |         | 20.06.   |          | 22.06.     | 12      |
-| 26 | 08:15 C 10-12<br>09:00 **A 11-12** | 27.06.   |          | 29.06.     |         |
+| KW | Datum  | BMT1-PRP1/01 | BMT1-PRP1/02 | BMT1-PRP1/03 | BMT1-PR1 |
+| -: | -----: | :----------: | :----------: | :----------: | :------: |
+| 42 | 16.10. |              |              |              |        1 |
+| 43 | 23.10. |              |              |              |        2 |
+| 44 | 30.10. |          1-2 |              |              |        3 |
+| 45 |  6.11. |              |          1-3 |              |        4 |
+| 46 | 13.11. |              |              |          1-3 |        5 |
+| 47 | 20.11. |          3-5 |              |              |        6 |
+| 48 | 27.11. |              |          4-6 |              |        7 |
+| 49 |  4.12. |              |              |          4-6 |        8 |
+| 50 | 11.12. |          6-8 |              |              |        9 |
+| 51 | 18.12. |              |          7-9 |              |       10 |
+| 52 | 25.12. |              |              |              |          |
+| 53 |  1.01. |              |              |              |          |
+| 54 |  8.01. |              |              |          7-9 |       11 |
+| 55 | 15.01. |         9-11 |              |              |       12 |
+| 56 | 22.01. |              |        10-12 |              |          |
+| 57 | 29.01. |              |              |        10-12 |          |
 
-## Anspruch
+## BMT1-PR1
 
-- Ein Vollzeitstudium hat 30 CP pro Semester
-- PR1 beansprucht davon 6 CP, also ein Fünftel
-- Pro Woche sollte demnach ein kompletter Tag in PR1 investiert werden:
-  - 3 Stunden Vorlesung
-  - 4 Stunden **abnahmepflichtige Aufgaben zu Hause (weitestgehend) lösen**
-  - 1 Stunde Praktikum:
-    - abnahmepflichtige Aufgaben abnehmen lassen
-    - restliche Aufgaben bearbeiten
-    - Alle 3 Wochen findet ein 3-stündiges Praktikum statt
+- Vorlesung (ca. 45 Minuten)
+- abnahmepflichtige Aufgaben bearbeiten
+- "good cop": Fred beantwortet eure Fragen
 
-## Praktika
+## BMT1-PRP1/0_
 
-- Für die Abnahme finden sich jeweils 2 Teilnehmer zu Pärchen zusammen
-- Ein Betreuer lässt sich die Lösungen abwechselnd von beiden Teilnehmern erklären und stellt Rückfragen
-- Sobald der Betreuer mit den Lösungen, Erklärungen und Antworten zufrieden ist, wird die Aufgabe als abgenommen abgehakt
+- abnahmepflichtige Aufgaben abnehmen lassen
+- "bad cops": Ihr beantwortet Freds und Tobis Fragen
+- klausurrelevante Aufgaben bearbeiten
+
+## Formalia
+
 - Falls Abnahmen innerhalb eines Regeltermins nicht erfolgen:
   - 3 Wochen später direkt am Anfang abnehmen lassen
 - Die erfolgreiche Abnahme aller 12 Wochen ist Voraussetzung für die Zulassung zur Laborprüfung
