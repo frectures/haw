@@ -1,7 +1,5 @@
 # Woche 7
 
-📺 https://www.youtube.com/watch?v=rdqXySFCvcQ
-
 ## Aufgaben
 
 ### Aufgabe 7.0 Hübsches Spielfeld (abnahmepflichtig & klausurrelevant)
@@ -125,16 +123,16 @@ typedef enum { false, true } bool;
 
 bool hatVolleReihe(const char spielfeld[9], char spieler)
 {
-    if ( /* obere    Zeile besetzt */ ) return true;
-    if ( /* mittlere Zeile besetzt */ ) return true;
-    if ( /* untere   Zeile besetzt */ ) return true;
+    if (spielfeld[0] == spieler && spielfeld[1] == spieler && spielfeld[2] == spieler) return true;
+//  if ...
+//  if ...
 
-    if ( /* linke   Spalte besetzt */ ) return true;
-    // ...
-    // ...
+    if (spielfeld[0] == spieler && spielfeld[3] == spieler && spielfeld[6] == spieler) return true;
+//  if ...
+//  if ...
 
-    // ...
-    // ...
+//  if ...
+//  if ...
 
     return false;
 }
@@ -245,7 +243,7 @@ void schlauerZug_test()
 }
 ```
 
-**Tipp:** Beide "*Kann jemand durch Besetzen einer freien Position gewinnen?*"-Fragen sind jeweils durch schlichtes Ausprobieren beantwortbar:
+**Tipp:** Beide “*Kann jemand durch Besetzen einer freien Position gewinnen?*”-Fragen sind jeweils durch schlichtes Ausprobieren beantwortbar:
 1. Stein ablegen
 2. `hatVolleReihe` aufrufen
 3. Stein ggf. wieder entfernen

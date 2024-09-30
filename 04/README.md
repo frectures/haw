@@ -93,7 +93,7 @@ sondern von allen Zahlen zwischen 1 und 10:
 10 * 10 = 100
 ```
 
-Wie der Aufgabentitel "Geschachtelte Schleifen" vermuten lässt, geht das am einfachsten,
+Wie der Aufgabentitel “Geschachtelte Schleifen” vermuten lässt, geht das am einfachsten,
 indem man eine innere `for`-Schleife in eine äußere `for`-Schleife schachtelt:
 
 ```c
@@ -217,18 +217,18 @@ for (int i = 0; i < 9; ++i)
 ### Was bedeuten die Bestandteile der `for`-Schleife?
 
 ```c
-for (Initialisieren; Schleifenbedingung; Zählen)
+for (Initialisierung; Schleifenbedingung; Veränderung)
 {
     Schleifenrumpf
 }
 ```
 
-- Beim `Initialisieren` erhält der Schleifenzähler seinen Startwert
+- Die `Initialisierung` setzt den Schleifenzähler auf seinen Startwert
   - Das passiert nur einmalig ganz am Anfang
 - Die `Schleifenbedingung` entscheidet, ob die Schleife weiter geht oder fertig ist
   - falsch → Die Schleife wird beendet
   - wahr → Der `Schleifenrumpf` wird (erneut) ausgeführt
-- Beim `Zählen` wird der Schleifenzähler geeignet verändert
+- Die `Veränderung` verändert den Schleifenzähler geeignet
   - Das passiert erst *nach* der Ausführung des Schleifenrumpfs!
   - Anschließend wird die Schleifenbedingung erneut geprüft
 
@@ -237,22 +237,22 @@ for (Initialisieren; Schleifenbedingung; Zählen)
 Theoretisch kann man jede `for`-Schleife in eine `while`-Schleife konvertieren:
 
 ```c
-Initialisieren;
+Initialisierung;
 
 while (Schleifenbedingung)
 {
     Schleifenrumpf
 
-    Zählen;
+    Veränderung;
 }
 ```
 
 Meist ist die entsprechende `for`-Schleife aber besser nachvollziehbar,
-weil Initialisieren, Schleifenbedingung und Zählen in derselben Zeile stehen.
+weil Initialisierung, Schleifenbedingung und Veränderung in derselben Zeile stehen.
 
 ### Wie unterscheiden sich `++i` und `i++`?
 
-Für das Zählen in einer Zählschleife oder als alleinstehende Anweisung gibt es keinen Unterschied zwischen `++i` und `i++`:
+Für die Veränderung in einer Zählschleife oder als alleinstehende Anweisung gibt es keinen Unterschied zwischen `++i` und `i++`:
 
 ```c
 void alleinstehend()
@@ -284,7 +284,7 @@ void bestandteil()
 
 ### Erhöht `++i` den Schleifenzähler bereits *vor* der ersten Ausführung des Schleifenrumpfs?
 
-Nein. Das Zählen passiert grundsätzlich *nach* jeder Ausführung des Schleifenrumpfs, egal ob mittels `++i` oder `i++`.
+Nein. Die Veränderung passiert grundsätzlich *nach* jeder Ausführung des Schleifenrumpfs, egal ob mittels `++i` oder `i++`.
 
 ### Verhalten sich `++i` und `i+=1` und `i=i+1` identisch?
 

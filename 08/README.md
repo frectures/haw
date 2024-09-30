@@ -1,7 +1,5 @@
 # Woche 8
 
-📺 https://www.youtube.com/watch?v=0sEmOCO5CQM
-
 ## Aufgaben
 
 ### Aufgabe 8.1 Lottozahlen (abnahmepflichtig & klausurrelevant)
@@ -12,10 +10,6 @@ unsigned int random; // Zahlen von 0 bis 4294967295, siehe Woche 3
 // Initialisiert den Zufallszahlengenerator
 void srand(unsigned int seed)
 {
-    if (random != 0)
-    {
-        printf("\nhttps://stackoverflow.com/questions/7343833/srand-why-call-it-only-once\n");
-    }
     random = seed;
 }
 
@@ -32,6 +26,7 @@ int rand()
 void doppeltUndDreifach()
 {
     srand(457);
+
     printf("Die Lottozahlen von morgen:");
     for (int i = 0; i < 6; ++i)
     {
@@ -290,7 +285,7 @@ void fibonacciArray()
    - Der Aufrufer muss die Größe als zusätzliches Argument `n` übergeben
    - Die Funktion vertraut dem Aufrufer, dass er keinen Blödsinn übergibt!
 3. `void h(int c[])`
-   - Funktion und Aufrufer haben sich auf einen "Terminator"-Wert geeinigt, zum Beispiel `-1`
+   - Funktion und Aufrufer haben sich auf einen “Terminator”-Wert geeinigt, zum Beispiel `-1`
    - Einen Standard-Terminator (analog zu `'\0'` für Strings) gibt es für andere Arrays *nicht*!
 
 ### Wie generiert ein [Linearer Kongruenzgenerator](https://en.wikipedia.org/wiki/Linear_congruential_generator) Zufallszahlen?
@@ -309,7 +304,7 @@ int rand()
 ```
 
 Die Variable `random` wird deterministisch und periodisch alle 4294967296 `unsigned int`-Werte durchlaufen,
-in einer uns Menschen unvorhersehbaren und daher "zufällig" erscheinenden Reihenfolge:
+in einer uns Menschen unvorhersehbaren und daher “zufällig” erscheinenden Reihenfolge:
 
 ```
          0
@@ -381,10 +376,6 @@ stattdessen initialisiert man sie durch Aufruf der Funktion `srand`:
 // Initialisiert den Zufallszahlengenerator
 void srand(unsigned int seed)
 {
-    if (random != 0)
-    {
-        printf("\nhttps://stackoverflow.com/questions/7343833/srand-why-call-it-only-once\n");
-    }
     random = seed;
 }
 
