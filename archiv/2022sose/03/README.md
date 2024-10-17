@@ -4,7 +4,7 @@
 
 ### Aufgabe 3.0 (Pflicht)
 
-Installiere Skorbut **ab Schritt 6** gemäß https://github.com/fredoverflow/skorbut-release#getting-started
+Installiere Skorbut **ab Schritt 6** gemäß https://github.com/fredoverflow/skorbut#getting-started
 
 (Java wurde ja bereits für Karel The Robot installiert, deshalb kannst du **die ersten 5 Schritte überspringen**.)
 

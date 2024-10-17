@@ -2,9 +2,6 @@
 
 ## Aufgaben
 
-- Lösche die alte Datei `skorbut.jar`
-- Lade [skorbut version 2023-12-16](https://raw.githubusercontent.com/fredoverflow/skorbut-release/master/skorbut.jar) runter
-
 ### Aufgabe 11.0 Sortierkriterium (abnahmepflichtig & klausurrelevant)
 
 - Untersuche die Funktion `compareDoubleAscending`:

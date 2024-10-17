@@ -201,7 +201,7 @@ const char nachher2[] = " @| +|.+|.@|";
 
 ### Was ist der ASCII-Code?
 
-- ASCII steht für "American Standard Code for Information Interchange"
+- ASCII steht für “American Standard Code for Information Interchange”
 - ASCII legt für 128 Zeichen fest, wie diese als 7-Bit-Zahl repräsentiert werden
 - 95 dieser Zeichen sind sichtbare Zeichen (inkl. Leerzeichen):
 

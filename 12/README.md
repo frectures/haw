@@ -2,14 +2,14 @@
 
 ## Aufgaben
 
-### Aufgabe 12.0 Diagnostics
+### Aufgabe 12.0 Diagnostics (klausurrelevant)
 
 - Skorbut hat links unten neben dem `console`-Tab ein `diagnostics`-Tab
 - Ein Mausklick auf eine Diagnostic führt zur problematischen Stelle im Programm
 - **In der Klausur führt *jede* Diagnostic zu Punktabzügen!**
 - Behebe möglichst viele Diagnostics für die Wochen 3 bis 11
 
-### Aufgabe 12.1 Sprachsortierung
+### Aufgabe 12.1 Sprachsortierung (klausurrelevant)
 
 Gegeben sei folgender Typ `struct Language` für Programmiersprachen:
 
@@ -68,7 +68,7 @@ void sortLanguages()
 }
 ```
 
-### Aufgabe 12.2 Gemüse-Typ
+### Aufgabe 12.2 Gemüse-Typ (klausurrelevant)
 
 In Aufgabe 10.1 waren *zwei Arrays* für das englische und deutsche Gemüse vorgegeben:
 

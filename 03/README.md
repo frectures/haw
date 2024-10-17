@@ -2,9 +2,9 @@
 
 ## Aufgaben
 
-[skorbut.jar](https://raw.githubusercontent.com/fredoverflow/skorbut-release/master/skorbut.jar) herunterladen und starten
+[skorbut.jar](https://raw.githubusercontent.com/fredoverflow/skorbut/release/skorbut.jar) herunterladen und starten
 
-### Aufgabe 3.1 Fibonacci (abnahmepflichtig & klausurrelevant)
+### Aufgabe 3.0 Fibonacci (abnahmepflichtig & klausurrelevant)
 
 Tippe folgende Funktion ab:
 
@@ -34,6 +34,110 @@ a = neuerWert;
 a = neuerWert;
 // ...
 ```
+
+### Aufgabe 3.1 Funktionen (abnahmepflichtig & klausurrelevant)
+
+```c
+double hoch2(double x)
+{
+    return x * x;
+}
+
+void hoch2_test()
+{
+    assert(hoch2( 1  ) ==  1);
+    assert(hoch2( 2  ) ==  4);
+    assert(hoch2( 3  ) ==  9);
+    assert(hoch2(-4  ) == 16);
+    assert(hoch2( 0.5) ==  0.25);
+}
+
+
+double hoch3(double x)
+{
+    // ...
+}
+
+void hoch3_test()
+{
+    // ...
+}
+```
+
+- Erkläre deinem Betreuer die Funktionen `hoch2` und `hoch2_test`
+- Vervollständige die (ähnlichen) Funktionen `hoch3` und `hoch3_test`
+- Läuft `hoch3_test` fehlerfrei durch?
+
+```c
+int minimum(int x, int y)
+{
+    if (x < y)
+    {
+        return x;
+    }
+    else
+    {
+        return y;
+    }
+}
+
+void minimum_test()
+{
+    assert(minimum(1, 2) == 1);
+    assert(minimum(3, 3) == 3);
+    assert(minimum(5, 4) == 4);
+}
+
+
+int maximum(int x, int y)
+{
+    // ...
+}
+
+void maximum_test()
+{
+    // ...
+}
+```
+
+- Erkläre deinem Betreuer die Funktionen `minimum` und `minimum_test`
+- Vervollständige die (ähnlichen) Funktionen `maximum` und `maximum_test`
+- Läuft `maximum_test` fehlerfrei durch?
+
+![](ganze.svg)
+
+```c
+int summeErsterGanzzahlen(int n)
+{
+    return n * (n + 1) / 2;
+}
+
+void summeErsterGanzzahlen_test()
+{
+    assert(summeErsterGanzzahlen(  1) ==    1);
+    assert(summeErsterGanzzahlen(  2) ==    3);
+    assert(summeErsterGanzzahlen(  3) ==    6);
+    assert(summeErsterGanzzahlen(  4) ==   10);
+    assert(summeErsterGanzzahlen(100) == 5050);
+}
+
+
+int summeErsterQuadratzahlen(int n)
+{
+    // ...
+}
+
+void summeErsterQuadratzahlen_test()
+{
+    // ...
+}
+```
+
+![](quadrate.svg)
+
+- Erkläre deinem Betreuer die Funktionen `summeErsterGanzzahlen` und `summeErsterGanzzahlen_test`
+- Vervollständige die (ähnlichen) Funktionen `summeErsterQuadratzahlen` und `summeErsterQuadratzahlen_test`
+- Läuft `summeErsterQuadratzahlen_test` fehlerfrei durch?
 
 ### Aufgabe 3.2 Quadratwurzeln (abnahmepflichtig & klausurrelevant)
 
@@ -145,7 +249,7 @@ void hypotenuse_test()
 
 Implementiere die Funktion `anzahlLoesungen` zum Bestimmen der Anzahl Lösungen (0 bis 2) einer quadratischen Gleichung:
 
-![](https://wikimedia.org/api/rest_v1/media/math/render/svg/2a9320379fd5742a739fabf1ec37b4c1f8aead21)
+![](pq.svg)
 
 ```c
 // Eine quadratische Gleichung der Form  ax² + bx + c = 0  hat 0 bis 2 Lösungen
@@ -216,7 +320,7 @@ Häufig sind `long`s auf 64-bit-Plattform größer und `int`s auf 16-bit-Plattfo
 
 ### Gibt es Karels `void funktionen()` auch in C?
 
-Ja. Da in Skorbut aber keine "Rätsel" eingebaut sind, kann man *jede* `void funktion()` starten:
+Ja. Da in Skorbut aber keine Rätsel eingebaut sind, kann man *jede* `void funktion()` starten:
 
 ```c
 void wohltemperiert()
@@ -236,7 +340,7 @@ void wohltemperiert()
 - Und wie bekommt `addSlow` umgekehrt die von `increment` erhöhte Zahl mitgeteilt?
   - Die Frage stellt sich eigentlich gar nicht
   - `increment` und `addSlow` arbeiten in derselben Welt
-  - Es brauchen also keine Diamanten "zurückkopiert" werden o.ä.
+  - Es brauchen also keine Diamanten “zurückkopiert” werden o.ä.
 - Karel-Funktionen kommunizieren also durch Veränderung der Welt (Diamanten sowie Karels Position und Drehung) miteinander
 
 ### Wie kommunizieren C-Funktionen miteinander?
@@ -309,7 +413,7 @@ int absoluteValue(int x)
 
 ### Was bedeutet `assert(annahme);` ?
 
-- Damit wird sichergestellt, dass eine vom Entwickler getroffene Annahme auch tatsächlich wahr ist
+- Damit wird sichergestellt, dass eine vom Programmierer getroffene Annahme auch tatsächlich wahr ist
 - Falls die Annahme wider Erwarten falsch ist, wird das Programm mit einer Fehlermeldung abgebrochen
 - Zum Testen von Funktionen ist `assert` sehr praktisch:
 
@@ -323,6 +427,10 @@ void absoluteValue_test()
     assert(absoluteValue(-2147483647-1) == 2147483647);
 }
 ```
+
+- Nach Ausführung von `absoluteValue_test` meldet Skorbut links unten:
+
+> [15:45:00] absoluteValue_test: ALL 4 assertions PASSED
 
 ### Was ist der Unterschied zwischen `=` und `==` ?
 

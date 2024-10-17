@@ -149,7 +149,7 @@ Schreibe eine Funktion `void welcherTagIstHeute()`,
 die den heutigen Tag auf die Konsole schreibt:
 
 ```
-Heute ist der 13. November 2023
+Heute ist der 11. November 2024
 ```
 
 Denkanstöße:
@@ -186,15 +186,6 @@ void division_test()
 }
 ```
 
-```
-___7___
-aaaaaaa |
-bbbbbbb 3
-ccccccc |
-d
-1
-```
-
 ### Wie liest man eine Ganzahl von der Konsole ein?
 
 Dazu definiert man zunächst eine Variable, in welcher die Zahl später einmal landen soll:
@@ -221,7 +212,7 @@ scanf("%d", &lieblingszahl);
 ### Was bedeutet das `&` vor `lieblingszahl`?
 
 - Ohne das `&` würden wir versuchen, den aktuellen Wert von `lieblingszahl` an `scanf` zu übergeben, aber in `lieblingszahl` steht ja noch gar kein Wert drin
-- Außerdem wollen wir auch gar nicht den aktuellen *Wert* übergeben, sondern "die Variable selber", damit `scanf` den eingelesenen Wert in `lieblingszahl` abspeichern kann
+- Außerdem wollen wir auch gar nicht den aktuellen *Wert* übergeben, sondern “die Variable selber”, damit `scanf` den eingelesenen Wert in `lieblingszahl` abspeichern kann
 
 ### Wie liest man Kommazahlen von der Konsole ein?
 
@@ -328,8 +319,8 @@ int romanValue(char romanLetter)
 ```
 
 - Ohne `break` würde die Programmausführung innerhalb des `switch`-Rumpfs einfach weitergehen
-- Dieses Phänomen bezeichnet man als "case fallthrough", weil man quasi durch alle folgenden `case`-Marken durchfällt
-- Meist passiert "case fallthrough" versehentlich, weil man das `break` vergessen hat
+- Dieses Phänomen bezeichnet man als “case fallthrough”, weil man quasi durch alle folgenden `case`-Marken durchfällt
+- Meist passiert “case fallthrough” versehentlich, weil man das `break` vergessen hat
 - Manchmal kann es aber durchaus praktisch sein, wenn mehrere Fälle gleich behandelt werden sollen:
 
 ```c

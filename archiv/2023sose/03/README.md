@@ -2,7 +2,7 @@
 
 ## Aufgaben
 
-[skorbut.jar](https://raw.githubusercontent.com/fredoverflow/skorbut-release/master/skorbut.jar) herunterladen und starten
+[skorbut.jar](https://raw.githubusercontent.com/fredoverflow/skorbut/release/skorbut.jar) herunterladen und starten
 
 ### Aufgabe 3.1 Fibonacci (abnahmepflichtig & klausurrelevant)
 
